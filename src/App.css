@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -41,17 +44,34 @@
   color: #888;
 }
 
-table{
+table {
   border-collapse: collapse;
   width: 900px;
 }
 
-table, th, tr, td{
-  border: 1px solid #f0f0f0;
+table,
+th,
+tr,
+td {
+  border: 2px solid #01000088;
 }
 
-td > button{
-  margin: 20px;
+th {
+  color: darkblue;
+  font-style: oblique;
+}
+
+td {
+  color: blue;
+  font-style: oblique;
+}
+
+table {
+  background-color: rgba(80, 5, 221, 0.143);
+}
+
+td>button {
+  margin: 15px;
 }
 
 .btn-up {
@@ -61,6 +81,12 @@ td > button{
 .btn-down {
   background: orange;
 }
+
 .btn-rm {
   background: red;
+}
+
+h3{
+  font-style: oblique;
+  color:rgb(4, 4, 149);
 }
